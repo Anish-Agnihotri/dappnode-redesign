@@ -90,8 +90,8 @@ h1 {
 /* Members section */
 .members {
     background-color: #f4f4f4;
+    padding-bottom: 30px;
 }
-
 
 .member {
     display: inline-block;
@@ -111,4 +111,27 @@ h1 {
 
 .member > p {
     margin-top: -12.5px;
+}
+
+/* Call to action section */
+.cta {
+    background-color: #2fbcb2;
+    color: #fff;
+    padding-bottom: 25px;
+}
+
+.cta > a {
+    text-decoration: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border: 1px solid #fff;
+    color: #fff;
+    border-radius: 5px;
+    background-color: #2fbcb2;
+    transition: 0.1s ease-in-out;
+}
+.cta > a:hover {
+    opacity: 0.8;
 }
