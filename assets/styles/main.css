@@ -1,0 +1,114 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Open Sans', sans-serif;
+    /* Use Open Sans as font across site. */
+    background-color: #fefefe;
+}
+
+.section {
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+}
+
+h1 {
+    font-size: 35px;
+    margin-bottom: 0px;
+}
+
+.section > p {
+    max-width: 600px;
+    display: inline-block;
+    line-height: 25px;
+}
+
+.highlight {
+    color: #2fbcb2;
+}
+
+/* Benefits section */
+
+.benefits {
+    padding-bottom: 50px;
+}
+
+
+.benefitCards {
+    max-width: 1000px;
+    display: inline-block;
+    columns: 3;
+}
+
+@media screen and (max-width: 940px) {
+    .benefitCards {
+        columns: 2;
+    }
+}
+
+@media screen and (max-width: 660px) {
+    .benefitCards {
+        columns: 1;
+    }
+}
+
+.card {
+    width: 300px;
+    background-color: #fff;
+    border-radius: 5px;
+    text-align: left;
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+    display: inline-block;
+}
+
+.card>div:nth-child(1) {
+    width: 35px;
+    height: 35px;
+    float: left;
+}
+
+.card>div:nth-child(1)>img {
+    height: 25px;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+.card>div:nth-child(2) {
+    width: 255px;
+    float: left;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-bottom: -7px;
+}
+
+.card > div:nth-child(2) > p {
+    margin-top: 7px;
+}
+
+/* Members section */
+.members {
+    background-color: #f4f4f4;
+}
+
+
+.member {
+    display: inline-block;
+    margin-left: 2%;
+    margin-right: 2%;
+    padding-top: 15px;
+}
+
+.member > img {
+    height: 100px;
+    border-radius: 50%;
+}
+
+.member > h3 {
+    color: #2fbcb2;
+}
+
+.member > p {
+    margin-top: -12.5px;
+}
