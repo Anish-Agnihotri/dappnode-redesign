@@ -7,9 +7,11 @@ body {
 }
 
 .section {
-    width: 100%;
+    width: 98%;
     display: inline-block;
     text-align: center;
+    padding-left: 1%;
+    padding-right: 1%;
 }
 
 h1 {
@@ -25,6 +27,37 @@ h1 {
 
 .highlight {
     color: #2fbcb2;
+}
+
+/* Landing section */
+.landing {
+    background-image: url('../images/header-bg.jpg');
+    padding-top: 40px;
+    padding-bottom: 40px;
+    color: #fff;
+    -webkit-box-shadow: 0px 10px 15px 0px rgba(0,0,0,0.4);
+    -moz-box-shadow: 0px 10px 15px 0px rgba(0,0,0,0.4);
+    box-shadow: 0px 10px 15px 0px rgba(0,0,0,0.4);
+}
+
+.landing > img {
+    width: 300px;
+}
+
+.landing > a {
+    text-decoration: none;
+    color: #fff;
+    background-color: #2fbcb2;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+    transition: 0.1s ease-in-out;
+}
+
+.landing > a:hover {
+    opacity: 0.9;
 }
 
 /* About section */
