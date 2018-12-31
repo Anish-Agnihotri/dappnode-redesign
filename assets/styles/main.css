@@ -182,6 +182,7 @@ h1 {
 
 .member > img {
     height: 100px;
+    width: 100px;
     border-radius: 50%;
 }
 
@@ -247,6 +248,7 @@ h1 {
 
 .funder > div > img {
     height: 100px;
+    width: 100px;
 }
 
 /* Footer section */
