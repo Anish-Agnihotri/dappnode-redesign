@@ -97,7 +97,7 @@
     max-width: 600px;
     display: inline-block;
 }
-
+/* If buttons are present in CTA, use this.
 .cta>ul {
     list-style-type: none;
     margin: 0;
@@ -141,7 +141,12 @@
 .cta>ul>li:nth-child(2)>a:hover {
     background-color: rgb(237, 236, 236);
 }
+*/
 
+.cta > iframe {
+    border-radius: 5px;
+    display: inline-block;
+}
 .logo>img {
     width: 200px;
     margin-top: -5px;
