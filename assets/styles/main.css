@@ -112,6 +112,17 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+.cta > div > button {
+    margin-top: 90px;
+    background-color: transparent;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+}
+.cta > div > button > img {
+    width: 80px;
+}
 /* If buttons are present in CTA, use this.
 .cta>ul {
     list-style-type: none;
