@@ -12,9 +12,7 @@
 
 /* Menubar */
 .menubar {
-    width: 1140px;
-    margin-left: 20%;
-    margin-right: 20%;
+    min-width: 1140px;
     display: inline-block;
     height: 60px;
     padding-top: 20px;
@@ -73,7 +71,7 @@
 /* Header Section */
 .cta {
     padding-top: 25px;
-    padding-bottom: 60px;
+    padding-bottom: 250px;
 }
 .cta > h1 {
     color: #291a41;
@@ -127,7 +125,7 @@
     width: 200px;
     margin-top: -5px;
 }
-/* About page */
+/* Home page */
 .support {
     background-color: rgb(247, 249, 251);
     padding-top: 35px;
@@ -161,6 +159,9 @@
     max-width: 340px;
     margin-top: 15px;
 }
+.problemContainer > div > img {
+    width: 60px;
+}
 .problemContainer > div > h3 {
     font-size: 20px;
     font-weight: 600;
@@ -180,4 +181,20 @@
 }
 .problemContainer > h2 {
     font-size: 30px;
+}
+
+.solution {
+    padding-top: 50px;
+    padding-bottom: 1000px;
+}
+.solution > img {
+    margin-top: 20px;
+    width: 800px;
+    display: inline-block;
+}
+.solution > p {
+    color: #53546a;
+    font-size: 20px;
+    max-width: 600px;
+    display: inline-block;
 }
