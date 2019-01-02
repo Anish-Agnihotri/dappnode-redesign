@@ -7,8 +7,9 @@
 
 <head>
     <link href='assets/styles/main.css' rel='stylesheet' type='text/css' />
-    <link href='https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.css' rel='stylesheet' type='text/css'/>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/modal-video@2.4.2/css/modal-video.min.css"/>
+    <link href='https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.css' rel='stylesheet' type='text/css'
+    />
+    <link rel="stylesheet" href="assets/styles/modal-video.min.css" />
 </head>
 
 <body>
@@ -43,7 +44,9 @@
             <p>DAppNode connects the decentralized internet by allowing a user to conveniently host P2P clients.</p>
             </br>
             <div>
-                <button class='open-video' data-video-id='EFij1K4U3MQ'><img src='assets/images/icons/play.svg' name='Play button' /></button>
+                <button class='open-video' data-video-id="EFij1K4U3MQ">
+                    <img src='assets/images/icons/play.svg' name='Play button' />
+                </button>
             </div>
         </div>
     </div>
@@ -290,23 +293,20 @@
     </div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/modal-video@2.4.2/lib/index.min.js"></script>
+    <script src="assets/scripts/jquery-modal-video.min.js"></script>
     <script>
-        $(".blog").owlCarousel({
-            items: 3,
-            itemsDesktop: [881, 3],
-            itemsTablet: [880, 2],
-            itemsTabletSmall: [590, 1],
-            autoPlay: false,
-            responsive: true,
-            navigation: false,
+        $(document).ready(function () {
+            $(".blog").owlCarousel({
+                items: 3,
+                itemsDesktop: [881, 3],
+                itemsTablet: [880, 2],
+                itemsTabletSmall: [590, 1],
+                autoPlay: false,
+                responsive: true,
+                navigation: false,
+            });
+            $(".open-video").modalVideo();
         });
-        $(".open-video").modalVideo({
-			youtube:{
-				controls:0,
-				nocookie: true
-			}
-		});
     </script>
 </body>
 
