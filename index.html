@@ -4,160 +4,310 @@
 -->
 <!doctype html>
 <html>
-    <head>
-        <link href='assets/styles/main.css' rel='stylesheet' type='text/css' />
-    </head>
-    <body>
-        <!-- Header -->
-        <div class='section header'>
-            <div class='menubar'>
-                <div class='logo'>
-                    <img src='assets/images/logos/dappnode.webp' alt='DAppNode logo'/>
-                </div>
-                <div class='menu'>
-                    <ul>
-                        <li><a href='install.html' id='install'>Install</a></li>
-                        <li><a href='community.html'>Community</a></li>
-                        <li><a href='documentation.html'>Documentation</a></li>
-                        <li><a href='about.html'>About</a></li>
-                        <li><a href='index.html' id='active'>Home</a></li>
-                    </ul>
-                </div>
+
+<head>
+    <link href='assets/styles/main.css' rel='stylesheet' type='text/css' />
+    <link href='https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.css' rel='stylesheet' type='text/css'
+    />
+</head>
+
+<body>
+    <!-- Header -->
+    <div class='section header'>
+        <div class='menubar'>
+            <div class='logo'>
+                <img src='assets/images/logos/dappnode.webp' alt='DAppNode logo' />
             </div>
-            <div class='cta'>
-                <h1>Decentralized Networking</h1>
-                <p>DAppNode connects the decentralized internet by allowing a user to conveniently host P2P clients.</p>
+            <div class='menu'>
                 <ul>
-                    <li><a href=''>Read synopsis</a></li>
-                    <li><a href=''>Inner workings</a></li>
+                    <li>
+                        <a href='install.html' id='install'>Install</a>
+                    </li>
+                    <li>
+                        <a href='community.html'>Community</a>
+                    </li>
+                    <li>
+                        <a href='documentation.html'>Documentation</a>
+                    </li>
+                    <li>
+                        <a href='about.html'>About</a>
+                    </li>
+                    <li>
+                        <a href='index.html' id='active'>Home</a>
+                    </li>
                 </ul>
             </div>
         </div>
-        <!-- Supporting TODO: FIX THESE STATIC ASSETS-->
-        <div class='section support'>
-            <h4>Supported Protocols Here</h4>
-            <div>
-                <!--<img src='assets/images/logos/bitcoin.svg'></img>
+        <div class='cta'>
+            <h1>Decentralized Networking</h1>
+            <p>DAppNode connects the decentralized internet by allowing a user to conveniently host P2P clients.</p>
+            <ul>
+                <li>
+                    <a href=''>Read synopsis</a>
+                </li>
+                <li>
+                    <a href=''>Inner workings</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!-- Supporting TODO: FIX THESE STATIC ASSETS-->
+    <div class='section support'>
+        <h4>Supported Protocols Here</h4>
+        <div>
+            <!--<img src='assets/images/logos/bitcoin.svg'></img>
                 <img src='assets/images/logos/ethereum.svg'></img>
                 <img src='assets/images/logos/ipfs.png'></img>
                 <img src='assets/images/logos/livepeer.png'></img>
                 <img src='assets/images/logos/status.svg'></img>
                 <img src='assets/images/logos/swarm.png'></img>
-                --></div>
+                -->
         </div>
-        <!-- Problems -->
-        <div class='section problems'>
-            <div class='problemContainer'>
-                <p>Problems</p>
-                <h2>We have a decentralization bottleneck.</h2>
+    </div>
+    <!-- Problems -->
+    <div class='section problems'>
+        <div class='problemContainer'>
+            <p>Problems</p>
+            <h2>We have a decentralization bottleneck.</h2>
+            <div>
+                <img src='assets/images/icons/network.svg' alt='Network' />
+                <h3>Network variability</h3>
+                <p>At no point in the last two years have there been more than 13,000 nodes online, and that number has gotten
+                    as low as 5,500.</p>
+            </div>
+            <div>
+                <img src='assets/images/icons/bank.svg' alt='Bank' />
+                <h3>Centralizing forces</h3>
+                <p>Users use common wallet applications with default nodes, causing such wallets to have centralized network
+                    control.
+                </p>
+            </div>
+            <div>
+                <img src='assets/images/icons/toolbox.svg' alt='Toolbox' />
+                <h3>Difficult deployment</h3>
+                <p>Running your own node is difficult involving troubleshooting, updating, and syncing, and it's difficult to
+                    share access.</p>
+            </div>
+        </div>
+    </div>
+    <!-- DAppNode as a solution -->
+    <div class='section solution'>
+        <p>Solution</p>
+        <h1>Simple node deployment.</h1>
+        <p>DAppNode bridges the gap between the benefits of hosting a decentralized P2P network, and the difficulty of putting
+            in time and effort to setup your own nodes.</p>
+        </br>
+        <div class='benefitCards'>
+            <div class='card'>
                 <div>
-                    <img src='assets/images/icons/network.svg' alt='Network' />
-                    <h3>Network variability</h3>
-                    <p>At no point in the last two years have there been more than 13,000 nodes online, and that number has gotten as low as 5,500.</p>
+                    <img src='assets/images/icons/checkmark.svg' alt='checkmark' />
                 </div>
                 <div>
-                    <img src='assets/images/icons/bank.svg' alt='Bank' />
-                    <h3>Centralizing forces</h3>
-                    <p>Users use common wallet applications with default nodes, causing such wallets to have centralized network control.</p>
+                    <p>Easy setup.</p>
+                </div>
+            </div>
+            <div class='card'>
+                <div>
+                    <img src='assets/images/icons/checkmark.svg' alt='checkmark' />
                 </div>
                 <div>
-                    <img src='assets/images/icons/toolbox.svg' alt='Toolbox' />
-                    <h3>Difficult deployment</h3>
-                    <p>Running your own node is difficult involving troubleshooting, updating, and syncing, and it's difficult to share access.</p>
+                    <p>Trustless system.</p>
+                </div>
+            </div>
+            <div class='card'>
+                <div>
+                    <img src='assets/images/icons/checkmark.svg' alt='checkmark' />
+                </div>
+                <div>
+                    <p>Invitingly open source.</p>
+                </div>
+            </div>
+            <div class='card'>
+                <div>
+                    <img src='assets/images/icons/checkmark.svg' alt='checkmark' />
+                </div>
+                <div>
+                    <p>Free up space on your devices.</p>
+                </div>
+            </div>
+            <div class='card'>
+                <div>
+                    <img src='assets/images/icons/checkmark.svg' alt='checkmark' />
+                </div>
+                <div>
+                    <p>Great for Proof of Stake mining.</p>
+                </div>
+            </div>
+            <div class='card'>
+                <div>
+                    <img src='assets/images/icons/checkmark.svg' alt='checkmark' />
+                </div>
+                <div>
+                    <p>Browse .eth domains normally.</p>
+                </div>
+            </div>
+            <div class='card'>
+                <div>
+                    <img src='assets/images/icons/checkmark.svg' alt='checkmark' />
+                </div>
+                <div>
+                    <p>Take control of your nodes.</p>
+                </div>
+            </div>
+            <div class='card'>
+                <div>
+                    <img src='assets/images/icons/checkmark.svg' alt='checkmark' />
+                </div>
+                <div>
+                    <p>Use your own server.</p>
+                </div>
+            </div>
+            <div class='card'>
+                <div>
+                    <img src='assets/images/icons/checkmark.svg' alt='checkmark' />
+                </div>
+                <div>
+                    <p>Tokenize and sell storage.</p>
+                </div>
+            </div>
+            <div class='card'>
+                <div>
+                    <img src='assets/images/icons/checkmark.svg' alt='checkmark' />
+                </div>
+                <div>
+                    <p>Facilitate a P2P economy.</p>
+                </div>
+            </div>
+            <div class='card'>
+                <div>
+                    <img src='assets/images/icons/checkmark.svg' alt='checkmark' />
+                </div>
+                <div>
+                    <p>Host P2P networking protocols.</p>
+                </div>
+            </div>
+            <div class='card'>
+                <div>
+                    <img src='assets/images/icons/checkmark.svg' alt='checkmark' />
+                </div>
+                <div>
+                    <p>Develop 24/7 running packages.</p>
+                </div>
+            </div>
+            <div class='card'>
+                <div>
+                    <img src='assets/images/icons/checkmark.svg' alt='checkmark' />
+                </div>
+                <div>
+                    <p>Trust no-one with your keys.</p>
+                </div>
+            </div>
+            <div class='card'>
+                <div>
+                    <img src='assets/images/icons/checkmark.svg' alt='checkmark' />
+                </div>
+                <div>
+                    <p>One-click node deployment.</p>
+                </div>
+            </div>
+            <div class='card'>
+                <div>
+                    <img src='assets/images/icons/checkmark.svg' alt='checkmark' />
+                </div>
+                <div>
+                    <p>Run your own VPN.</p>
+                </div>
+            </div>
+            <div class='card'>
+                <div>
+                    <img src='assets/images/icons/checkmark.svg' alt='checkmark' />
+                </div>
+                <div>
+                    <p>Support an entire community.</p>
+                </div>
+            </div>
+            <div class='card'>
+                <div>
+                    <img src='assets/images/icons/checkmark.svg' alt='checkmark' />
+                </div>
+                <div>
+                    <p>Buidl decentral communities.</p>
+                </div>
+            </div>
+            <div class='card'>
+                <div>
+                    <img src='assets/images/icons/checkmark.svg' alt='checkmark' />
+                </div>
+                <div>
+                    <p>Make profit maintaining node.</p>
                 </div>
             </div>
         </div>
-        <!-- DAppNode as a solution -->
-        <div class='section solution'>
-            <p>Solution</p>
-            <h1>Simple node deployment.</h1>
-            <p>DAppNode bridges the gap between the benefits of hosting a decentralized P2P network, and the difficulty of putting in time and effort to setup your own nodes.</p>
-            </br>
-            <div class='benefitCards'>
-                <div class='card'>
-                    <div><img src='assets/images/icons/checkmark.svg' alt='checkmark' /></div>
-                    <div><p>Easy setup.</p></div>
+        <h5>+ many more benefits...</h5>
+    </div>
+    <!-- Community -->
+    <div class='section community'>
+        <h1>Connect with DAppNode.</h1>
+        <p>Learn more about DAppNode, chat with the team, and contribute to the future of decentralized networking.</p>
+        <ul>
+            <li>
+                <a href=''>Riot Chat</a>
+            </li>
+            <li>
+                <a href=''>Github</a>
+            </li>
+            <li>
+                <a href=''>Twitter</a>
+            </li>
+        </ul>
+        <div class='blogContainer'><div class='blog'>
+            <a href='' class='blogItem'>
+                <div id='imageOne'>
+                    <h3>DAppNode: The Infrastructre for the Decentralized World</h3>
+                    <p>DAppNode</p>
+                    <img src='assets/images/logos/dappnode_medium.png' alt='DAppNode Medium Avatar'/>
                 </div>
-                <div class='card'>
-                        <div><img src='assets/images/icons/checkmark.svg' alt='checkmark' /></div>
-                        <div><p>Trustless system.</p></div>
+            </a>
+            <a href='' class='blogItem'>
+                <div>
+                    <p>something1</p>
                 </div>
-                <div class='card'>
-                        <div><img src='assets/images/icons/checkmark.svg' alt='checkmark' /></div>
-                        <div><p>Invitingly open source.</p></div>
+            </a>
+            <a href='' class='blogItem'>
+                <div>
+                    <p>something1</p>
                 </div>
-                <div class='card'>
-                        <div><img src='assets/images/icons/checkmark.svg' alt='checkmark' /></div>
-                        <div><p>Free up space on your devices.</p></div>
+            </a>
+            <a href='' class='blogItem'>
+                <div>
+                    <p>something1</p>
                 </div>
-                <div class='card'>
-                        <div><img src='assets/images/icons/checkmark.svg' alt='checkmark' /></div>
-                        <div><p>Great for Proof of Stake mining.</p></div>
+            </a>
+            <a href='' class='blogItem'>
+                <div>
+                    <p>something1</p>
                 </div>
-                <div class='card'>
-                        <div><img src='assets/images/icons/checkmark.svg' alt='checkmark' /></div>
-                        <div><p>Browse .eth domains normally.</p></div>
+            </a>
+            <a href='' class='blogItem'>
+                <div>
+                    <p>something1</p>
                 </div>
-                <div class='card'>
-                        <div><img src='assets/images/icons/checkmark.svg' alt='checkmark' /></div>
-                        <div><p>Take control of your nodes.</p></div>
-                </div>
-                <div class='card'>
-                        <div><img src='assets/images/icons/checkmark.svg' alt='checkmark' /></div>
-                        <div><p>Use your own server.</p></div>
-                </div>
-                <div class='card'>
-                        <div><img src='assets/images/icons/checkmark.svg' alt='checkmark' /></div>
-                        <div><p>Tokenize and sell storage.</p></div>
-                </div>
-                <div class='card'>
-                        <div><img src='assets/images/icons/checkmark.svg' alt='checkmark' /></div>
-                        <div><p>Facilitate a P2P economy.</p></div>
-                </div>
-                <div class='card'>
-                        <div><img src='assets/images/icons/checkmark.svg' alt='checkmark' /></div>
-                        <div><p>Host P2P networking protocols.</p></div>
-                </div>
-                <div class='card'>
-                        <div><img src='assets/images/icons/checkmark.svg' alt='checkmark' /></div>
-                        <div><p>Develop 24/7 running packages.</p></div>
-                </div>
-                <div class='card'>
-                        <div><img src='assets/images/icons/checkmark.svg' alt='checkmark' /></div>
-                        <div><p>Trust no-one with your keys.</p></div>
-                </div>
-                <div class='card'>
-                        <div><img src='assets/images/icons/checkmark.svg' alt='checkmark' /></div>
-                        <div><p>One-click node deployment.</p></div>
-                </div>
-                <div class='card'>
-                        <div><img src='assets/images/icons/checkmark.svg' alt='checkmark' /></div>
-                        <div><p>Run your own VPN.</p></div>
-                </div>
-                <div class='card'>
-                        <div><img src='assets/images/icons/checkmark.svg' alt='checkmark' /></div>
-                        <div><p>Support an entire community.</p></div>
-                </div>
-                <div class='card'>
-                        <div><img src='assets/images/icons/checkmark.svg' alt='checkmark' /></div>
-                        <div><p>Buidl decentral communities.</p></div>
-                </div>
-                <div class='card'>
-                        <div><img src='assets/images/icons/checkmark.svg' alt='checkmark' /></div>
-                        <div><p>Make profit maintaining node.</p></div>
-                </div>
-            </div>
-            <h5>+ many more benefits...</h5>
-        </div>
-        <!-- Community -->
-        <div class='section community'>
-            <h1>Connect with DAppNode.</h1>
-            <p>Learn more about DAppNode, chat with the team, and contribute to the future of decentralized networking.</p>
-            <ul>
-                <li><a href=''>Riot Chat</a></li>
-                <li><a href=''>Github</a></li>
-                <li><a href=''>Twitter</a></li>
-            </ul>
-        </div>
-    </body>
+            </a>
+        </div></div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.js"></script>
+    <script>
+        $(".blog").owlCarousel({
+            items: 3,
+            itemsDesktop: [881, 3],
+            itemsTablet: [880, 2],
+            itemsTabletSmall: [590, 1],
+            autoPlay: false,
+            responsive: true,
+            navigation: false,
+        });
+    </script>
+</body>
+
 </html>

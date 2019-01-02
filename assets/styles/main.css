@@ -329,3 +329,45 @@
 .community>ul>li>a:hover {
     border-bottom-color: #2fbcb2;
 }
+.blogContainer {
+    width: 1000px;
+    display: inline-block;
+}
+.blog {
+    padding-top: 20px;
+}
+.blogItem > div {
+    width: 270px;
+    height: 370px;
+    background-color: #fff;
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.15);
+    -moz-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.15);
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.15);
+    display: inline-block;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 15px;
+}
+
+.blogItem > div > h3 {
+    margin-top: 200px;
+}
+.blogItem > div > p {
+    font-weight: 500;
+    color: #2fbcb2;
+}
+.blogItem > div > img {
+    width: 40px;
+    border-radius: 25px;
+}
+.blogItem > div > h3 {
+    color: #fff;
+}
+
+#imageOne {
+    background-image: url("../images/blog/decentral.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
