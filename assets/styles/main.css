@@ -348,6 +348,16 @@
     margin-top: 10px;
     margin-bottom: 10px;
     padding: 15px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: 0.1s ease-in-out;
+}
+
+.blogItem > div:hover {
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.35);
+    -moz-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.35);
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.35);
 }
 
 .blogItem > div > h3 {
@@ -365,9 +375,20 @@
     color: #fff;
 }
 
+.blogItem > div > h4 {
+    color: #1e2022;
+    font-size: 16px;
+    font-weight: 400;
+}
 #imageOne {
     background-image: url("../images/blog/decentral.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+}
+
+/* TODO: Refactor alignment */
+#imageTwo {
+    background-image: url("../images/blog/gift.png");
+}
+
+#imageTwo > h3 {
+    margin-top: 230px;
 }
