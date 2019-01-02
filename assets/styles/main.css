@@ -82,7 +82,7 @@
 
 .cta {
     padding-top: 25px;
-    padding-bottom: 250px;
+    padding-bottom: 25px;
 }
 
 .cta>h1 {
@@ -96,6 +96,21 @@
     font-size: 20px;
     max-width: 600px;
     display: inline-block;
+}
+.cta > div {
+    width: 500px;
+    height: 260px;
+    background-color: #2fbcb2;
+    margin-top: 20px;
+    display: inline-block;
+    border-radius: 5px;
+    background-image: url("../images/icons/thumbnail.jpg");
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 /* If buttons are present in CTA, use this.
 .cta>ul {
@@ -143,10 +158,6 @@
 }
 */
 
-.cta > iframe {
-    border-radius: 5px;
-    display: inline-block;
-}
 .logo>img {
     width: 200px;
     margin-top: -5px;
